@@ -1,0 +1,19 @@
+{
+  "chan": 0,
+  "cls": 0,
+  "codr": "4/5",
+  "data": "MlftAg4CBgAXARYBRT9wAyAAUw==",
+  "datr": "SF7BW125",
+  "freq": "868.1",
+  "lsnr": "9.5",
+  "mhdr": "4007000000805988",
+  "modu": "LORA",
+  "opts": "",
+  "port": 2,
+  "rfch": 0,
+  "rssi": -70,
+  "seqn": 34905,
+  "size": 28,
+  "timestamp": "2016-11-08T10:27:19.753448Z",
+  "tmst": 1034611603
+}
