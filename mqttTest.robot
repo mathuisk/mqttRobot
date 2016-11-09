@@ -12,7 +12,7 @@ Open connection to server
     Connect    ${broker.url}    port=${broker.port}
 
 Send simple data
-    ${date}    Get Current Date    result_format=%Y-%m-%dT%H:%M:%S.%fZ #gives the date and time in ISO 8601 format
+    ${date}    Get Current Date    result_format=%Y-%m-%dT%H:%M:%S.%fZ
     ${time}    Get Time    epoch #gives epoch time without decimals
     Publish    topic=test    message={"chan": 0,"cls": 0,"codr": "4/5","data": "MlftAg4CBgAXARYBRT9wAyAAUw==","datr": "SF7BW125","freq": "868.1","lsnr": "9.5","mhdr": "4007000000805988","modu": "LORA","opts": "","port": 2,"rfch": 0,"rssi": -70,"seqn": 34905,"size": 28,"timestamp": "${date}","tmst": ${time}}
 
@@ -20,7 +20,7 @@ Sleep for 5 seconds between tests
     Sleep    5
 
 Send more data
-    ${date}    Get Current Date    result_format=%Y-%m-%dT%H:%M:%S.%fZ #gives the date and time in ISO 8601 format
+    ${date}    Get Current Date    result_format=%Y-%m-%dT%H:%M:%S.%fZ
     ${time}    Get Time    epoch #gives epoch time without decimals
     Publish    topic=test    message={"chan": 0,"cls": 0,"codr": "4/5","data": "MlftAg4CBgAXARYBRT9wAyAAUw==","datr": "SF7BW125","freq": "868.1","lsnr": "9.5","mhdr": "4007000000805988","modu": "LORA","opts": "","port": 2,"rfch": 0,"rssi": -70,"seqn": 34905,"size": 28,"timestamp": "${date}","tmst": ${time}}
 
